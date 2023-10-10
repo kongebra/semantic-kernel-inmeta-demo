@@ -1,0 +1,13 @@
+Give me the recipe of the {{$input}} cocktail elaborately.
+
+[Format]
+How to make {{$input}} cocktail
+
+Ingredients:
+
+Steps:
+
+
+___________________________________________________________________________________________
+Say you are not familiar with the cocktail if you don't know the cocktail.
+

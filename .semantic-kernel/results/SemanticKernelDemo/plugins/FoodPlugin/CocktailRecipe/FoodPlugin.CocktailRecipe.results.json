@@ -1,0 +1,75 @@
+{
+    "version": "1.0",
+    "skillName": "FoodPlugin",
+    "functionName": "CocktailRecipe",
+    "description": "Show the recipe of a coktail that is being asked",
+    "filePath": "SemanticKernelDemo\\plugins\\FoodPlugin\\CocktailRecipe\\skprompt.txt",
+    "results": [
+        {
+            "completionConfig": {
+                "label": "sveinchat",
+                "aiService": "AzureOpenAI",
+                "deploymentOrModelId": "sveinchat",
+                "endpoint": "https://sveinopenaitest.openai.azure.com/",
+                "useCustomEndpoint": false,
+                "endpointType": "chat-completion",
+                "chatSystemMessage": "You are an AI assistant that helps people find information."
+            },
+            "requestSettings": {
+                "temperature": 0,
+                "topP": 0,
+                "presencePenalty": 0,
+                "frequencyPenalty": 0,
+                "maxTokens": 256,
+                "stopSequences": []
+            },
+            "variables": [
+                {
+                    "key": "input",
+                    "value": "long island ice tea"
+                }
+            ],
+            "output": {
+                "prompt": "Give me the recipe of the long island ice tea cocktail elaborately.\n\n[Format]\nHow to make long island ice tea cocktail\n\nIngredients:\n\nSteps:\n\n\n___________________________________________________________________________________________\nSay you are not familiar with the cocktail if you don't know the cocktail.\n\n",
+                "durationInMilliseconds": 4122.8037,
+                "inputTokens": null,
+                "outputTokens": null,
+                "result": "I am familiar with the Long Island Iced Tea cocktail. Here's the recipe:\n\nIngredients:\n- 1/2 oz vodka\n- 1/2 oz gin\n- 1/2 oz rum\n- 1/2 oz tequila\n- 1/2 oz triple sec\n- 3/4 oz lemon juice\n- 1 oz simple syrup\n- Cola\n- Ice\n- Lemon wedge for garnish\n\nSteps:\n1. Fill a cocktail shaker with ice.\n2. Add vodka, gin, rum, tequila, triple sec, lemon juice, and simple syrup to the shaker.\n3. Shake well for about 10-15 seconds.\n4. Fill a highball glass with ice.\n5. Strain the cocktail into the glass.\n6. Top with cola.\n7. Garnish with a lemon wedge.\n8. Serve and enjoy!",
+                "chatCompletionResult": "I am familiar with the Long Island Iced Tea cocktail. Here's the recipe:\n\nIngredients:\n- 1/2 oz vodka\n- 1/2 oz gin\n- 1/2 oz rum\n- 1/2 oz tequila\n- 1/2 oz triple sec\n- 3/4 oz lemon juice\n- 1 oz simple syrup\n- Cola\n- Ice\n- Lemon wedge for garnish\n\nSteps:\n1. Fill a cocktail shaker with ice.\n2. Add vodka, gin, rum, tequila, triple sec, lemon juice, and simple syrup to the shaker.\n3. Shake well for about 10-15 seconds.\n4. Fill a highball glass with ice.\n5. Strain the cocktail into the glass.\n6. Top with cola.\n7. Garnish with a lemon wedge.\n8. Serve and enjoy!"
+            }
+        },
+        {
+            "completionConfig": {
+                "label": "sveinchat",
+                "aiService": "AzureOpenAI",
+                "deploymentOrModelId": "sveinchat",
+                "endpoint": "https://sveinopenaitest.openai.azure.com/",
+                "useCustomEndpoint": false,
+                "endpointType": "chat-completion",
+                "chatSystemMessage": "You are an AI assistant that helps people find information."
+            },
+            "requestSettings": {
+                "temperature": 0,
+                "topP": 0,
+                "presencePenalty": 0,
+                "frequencyPenalty": 0,
+                "maxTokens": 256,
+                "stopSequences": []
+            },
+            "variables": [
+                {
+                    "key": "input",
+                    "value": "moscow mule"
+                }
+            ],
+            "output": {
+                "prompt": "Give me the recipe of the moscow mule cocktail elaborately.\n\n[Format]\nHow to make moscow mule cocktail\n\nIngredients:\n\nSteps:\n\n\n___________________________________________________________________________________________\nSay you are not familiar with the cocktail if you don't know the cocktail.\n\n",
+                "durationInMilliseconds": 1296.9018,
+                "inputTokens": null,
+                "outputTokens": null,
+                "result": "I'm sorry, but I am not familiar with the Moscow Mule cocktail. Would you like me to look up the recipe for you?",
+                "chatCompletionResult": "I'm sorry, but I am not familiar with the Moscow Mule cocktail. Would you like me to look up the recipe for you?"
+            }
+        }
+    ]
+}

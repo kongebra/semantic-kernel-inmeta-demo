@@ -7,6 +7,72 @@
     "results": [
         {
             "completionConfig": {
+                "label": "sveinchat",
+                "aiService": "AzureOpenAI",
+                "deploymentOrModelId": "sveinchat",
+                "endpoint": "https://sveinopenaitest.openai.azure.com/",
+                "useCustomEndpoint": false,
+                "endpointType": "chat-completion",
+                "chatSystemMessage": "You are an AI assistant that helps people find information."
+            },
+            "requestSettings": {
+                "temperature": 0,
+                "topP": 0,
+                "presencePenalty": 0,
+                "frequencyPenalty": 0,
+                "maxTokens": 256,
+                "stopSequences": []
+            },
+            "variables": [
+                {
+                    "key": "input",
+                    "value": "french toast"
+                }
+            ],
+            "output": {
+                "prompt": "Give me the recipe of the french toast dish elaborately.\r\n\r\n[Format]\r\nHow to make french toast dish\r\n\r\nIngredients:\r\n\r\nSteps:\r\n\r\n\r\n___________________________________________________________________________________________\r\nSay you are not familiar with the dish if you don't know the dish.\r\n",
+                "durationInMilliseconds": 4859.9966,
+                "inputTokens": null,
+                "outputTokens": null,
+                "result": "I can definitely help you with that!\r\n\r\nHow to make French Toast dish:\r\n\r\nIngredients:\r\n- 4 slices of bread\r\n- 2 eggs\r\n- 1/4 cup of milk\r\n- 1/2 teaspoon of vanilla extract\r\n- 1/2 teaspoon of ground cinnamon\r\n- 1 tablespoon of butter\r\n- Maple syrup (optional)\r\n\r\nSteps:\r\n1. In a shallow dish, whisk together the eggs, milk, vanilla extract, and ground cinnamon until well combined.\r\n2. Heat a non-stick skillet over medium heat and add the butter. Allow the butter to melt and coat the bottom of the skillet.\r\n3. Dip each slice of bread into the egg mixture, making sure to coat both sides evenly.\r\n4. Place the coated bread slices onto the skillet and cook for 2-3 minutes on each side, or until golden brown.\r\n5. Once the French toast is cooked, remove it from the skillet and place it onto a plate.\r\n6. Serve the French toast hot with maple syrup, if desired.\r\n\r\nI hope this helps! Let me know if you have any other questions.",
+                "chatCompletionResult": "I can definitely help you with that!\r\n\r\nHow to make French Toast dish:\r\n\r\nIngredients:\r\n- 4 slices of bread\r\n- 2 eggs\r\n- 1/4 cup of milk\r\n- 1/2 teaspoon of vanilla extract\r\n- 1/2 teaspoon of ground cinnamon\r\n- 1 tablespoon of butter\r\n- Maple syrup (optional)\r\n\r\nSteps:\r\n1. In a shallow dish, whisk together the eggs, milk, vanilla extract, and ground cinnamon until well combined.\r\n2. Heat a non-stick skillet over medium heat and add the butter. Allow the butter to melt and coat the bottom of the skillet.\r\n3. Dip each slice of bread into the egg mixture, making sure to coat both sides evenly.\r\n4. Place the coated bread slices onto the skillet and cook for 2-3 minutes on each side, or until golden brown.\r\n5. Once the French toast is cooked, remove it from the skillet and place it onto a plate.\r\n6. Serve the French toast hot with maple syrup, if desired.\r\n\r\nI hope this helps! Let me know if you have any other questions."
+            }
+        },
+        {
+            "completionConfig": {
+                "label": "sveinchat",
+                "aiService": "AzureOpenAI",
+                "deploymentOrModelId": "sveinchat",
+                "endpoint": "https://sveinopenaitest.openai.azure.com/",
+                "useCustomEndpoint": false,
+                "endpointType": "chat-completion",
+                "chatSystemMessage": "You are an AI assistant that helps people find information."
+            },
+            "requestSettings": {
+                "temperature": 0,
+                "topP": 0,
+                "presencePenalty": 0,
+                "frequencyPenalty": 0,
+                "maxTokens": 256,
+                "stopSequences": []
+            },
+            "variables": [
+                {
+                    "key": "input",
+                    "value": "moscow mule"
+                }
+            ],
+            "output": {
+                "prompt": "Give me the recipe of the moscow mule dish elaborately.\r\n\r\n[Format]\r\nHow to make moscow mule dish\r\n\r\nIngredients:\r\n\r\nSteps:\r\n\r\n\r\n___________________________________________________________________________________________\r\nSay you are not familiar with the dish if you don't know the dish.\r\n",
+                "durationInMilliseconds": 2868.0708,
+                "inputTokens": null,
+                "outputTokens": null,
+                "result": "I'm sorry, but I'm not familiar with the Moscow Mule dish. The Moscow Mule is actually a cocktail made with vodka, ginger beer, and lime juice. Would you like me to provide you with the recipe for the cocktail instead?",
+                "chatCompletionResult": "I'm sorry, but I'm not familiar with the Moscow Mule dish. The Moscow Mule is actually a cocktail made with vodka, ginger beer, and lime juice. Would you like me to provide you with the recipe for the cocktail instead?"
+            }
+        },
+        {
+            "completionConfig": {
                 "label": "gpt-35-turbo",
                 "aiService": "AzureOpenAI",
                 "deploymentOrModelId": "gpt-35-turbo",

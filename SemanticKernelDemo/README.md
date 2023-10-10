@@ -15,9 +15,9 @@ Configure an Azure OpenAI endpoint
 
 dotnet user-secrets set "Global:LlmService" "AzureOpenAI"
 dotnet user-secrets set "AzureOpenAI:DeploymentType" "chat-completion"
-dotnet user-secrets set "AzureOpenAI:ChatCompletionDeploymentName" "gpt-35-turbo"
-dotnet user-secrets set "AzureOpenAI:Endpoint" "... your Azure OpenAI endpoint ..."
-dotnet user-secrets set "AzureOpenAI:ApiKey" "... your Azure OpenAI key ..."
+dotnet user-secrets set "AzureOpenAI:ChatCompletionDeploymentName" "sveinchat"
+dotnet user-secrets set "AzureOpenAI:Endpoint" "https://sveinopenaitest.openai.azure.com/"
+dotnet user-secrets set "AzureOpenAI:ApiKey" ""
 ```
 
 ## Running the sample

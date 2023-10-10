@@ -20,7 +20,7 @@ kernel.ImportSkill(new Math(), "MathPlugin");
 
 var planner = new SequentialPlanner(kernel);
 
-var ask = "My monthly gross salary is 9000 USD and the tax is 35 percent, how much would I have every month if I have a monthly food cost of 1300 USD and 900 USD for rent?";
+var ask = "My monthly gross salary is 9000 USD and the tax is 32 percent, how much would I have every month if I have a monthly food cost of 1300 USD and 900 USD for rent?";
 var plan = await planner.CreatePlanAsync(ask);
 
 /*  AI plans are to multiply first (9000 x 0.35), 
